@@ -31,3 +31,14 @@ const book: [string, number, boolean] = ['boolean', 1500, false]
 console.log(person)
 
 
+// enum型(列挙型)
+enum CoffeeSize {
+   SHORT = 'short',
+   TALL = 'tall'
+}
+const coffee = {
+   hot: true, 
+   size: CoffeeSize.TALL
+}
+
+console.log(coffee)
